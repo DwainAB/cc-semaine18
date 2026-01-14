@@ -9,9 +9,7 @@ use App\Models\Group;
 
 class GroupUserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+
     public function run(): void
     {
         $group = Group::create(['name' => 'Family']);

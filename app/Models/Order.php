@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class Order extends Model
 {
-    protected $fillable = ['amount', 'status'];
+    protected $fillable = ['amount', 'status', 'user_id'];
 
     public function user(): BelongsTo
     {
